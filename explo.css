@@ -1,0 +1,73 @@
+.logo{
+    width: 20%;
+    border-radius: 20px;
+    position: relative;
+    top: 8px;
+    left:20px;
+    float: left;
+}
+.nave:hover{
+    background-color: rgb(159, 118, 118);
+}
+.nave{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+.nave1{
+    list-style: none;
+    float: right;
+    margin: 12px 40px;
+}
+nav{
+    position: relative;
+    top: 10px;
+}
+.img{
+    width: 5%;
+    border-radius: 70px;
+}
+.f1{
+    list-style: none;
+    float: left;
+    margin: 20px;
+}
+footer{
+    background-color: black;
+   height: 182px;
+   position:relative;
+   left: -8px;
+   top: 150px;
+   width: 103.5%;
+   border: 15px solid white;
+    
+    
+}
+.i1{
+    position: relative;
+    top:63px;
+    left: 229px;
+    
+}
+.f1{
+    position: relative;
+    top:132px;
+    left:376px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.backvideo{
+    position: absolute;
+    right: 0px;
+    top:0px;
+    width: 100%;
+    height:110%;
+    
+}
+@media(max-aspect-ratio:10/9)
+{
+    .backvideo{
+        width: auto;
+        height: auto;
+    }
+}
